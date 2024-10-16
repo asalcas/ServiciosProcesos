@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DI",
+    "\\DI\\BotonesMaui"
   ],
-  "SelectedNode": "\\C:\\Users\\alvaro.salvador\\Desktop\\GitHub",
+  "SelectedNode": "\\DI\\BotonesMaui\\BotonesMaui.sln",
   "PreviewInSolutionExplorer": false
 }
