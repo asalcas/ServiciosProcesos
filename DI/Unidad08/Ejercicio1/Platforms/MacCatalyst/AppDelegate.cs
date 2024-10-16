@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Layouts
+namespace Ejercicio1
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

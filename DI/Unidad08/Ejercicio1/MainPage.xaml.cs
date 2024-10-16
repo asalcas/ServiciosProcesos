@@ -1,4 +1,4 @@
-﻿namespace Layouts
+﻿namespace Ejercicio1
 {
     public partial class MainPage : ContentPage
     {

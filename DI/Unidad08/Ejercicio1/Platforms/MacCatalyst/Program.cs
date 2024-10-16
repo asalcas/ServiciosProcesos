@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Layouts
+namespace Ejercicio1
 {
     public class Program
     {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="Layouts.AppShell"
+    x:Class="Ejercicio1.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Layouts"
+    xmlns:local="clr-namespace:Ejercicio1"
     Shell.FlyoutBehavior="Disabled"
-    Title="Layouts">
+    Title="Ejercicio1">
 
     <ShellContent
         Title="Home"
