@@ -3,18 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejercicio2.MainPage">
 
-    <FlexLayout BackgroundColor="Grey" >
-       
-        <FlexLayout HorizontalOptions="CenterAndExpand">
-            <Label Text="HEADER" TextColor="Blue" BackgroundColor="Turquoise"></Label>
+    <FlexLayout BackgroundColor="Grey" Direction="Column" >
 
-            <BoxView HorizontalOptions="CenterAndExpand" BackgroundColor="Blue" WidthRequest="200" HeightRequest="200"/>
+
+
+        <Label Text="HEADER" TextColor="Blue" BackgroundColor="Aqua" FontSize="28" HorizontalTextAlignment="Center" />
+
+        <FlexLayout FlexLayout.Grow="1">
+
+            <BoxView BackgroundColor="Blue" FlexLayout.Grow="0.5"/>
+
+            <Label Text="CONTENT" TextColor="Purple" FontSize="28" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                   FlexLayout.Grow="5"/>
+
+            <BoxView BackgroundColor="Green"  FlexLayout.Grow="0.5"/>
 
 
 
         </FlexLayout>
 
-        
+        <Label Text="FOOTER" TextColor="Blue" BackgroundColor="Pink" FontSize="28" HorizontalTextAlignment="Center"/>
+
+
+
+
+
 
 
     </FlexLayout>
