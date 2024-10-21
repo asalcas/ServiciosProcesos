@@ -2,7 +2,7 @@ import json
 from flask import *
 from flask import Blueprint, jsonify
 
-from API_MedicoPaciente.app.Pacientes.routes import leerFicherosPacientes
+
 
 
 def leerFicherosMedicos():
