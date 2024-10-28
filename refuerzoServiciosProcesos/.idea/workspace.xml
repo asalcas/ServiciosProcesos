@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd3d9262-dd04-4228-bcb5-849b3cbd3ef6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/cities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/cities/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/countries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/countries/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ficheros/cities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repaso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Ejercicio1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio1/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Ejercicio2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio2/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Ejercicio3.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio3/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Ejercicio4.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio4/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Ejercicio5DAL.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Ejercicio5BL.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5BL/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Ejercicio5DAL.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5DAL/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Ejercicio5ENT.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5ENT/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Ejercicio5UI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio5UI/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Ejercicio6.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Ejercicio6/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/AppShell.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/AppShell.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/MainPage.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/MainPage.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/MauiProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Android/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Android/MainActivity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Android/MainApplication.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Android/Resources/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/MacCatalyst/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/MacCatalyst/Entitlements.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/MacCatalyst/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/MacCatalyst/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Tizen/Main.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Tizen/tizen-manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Windows/App.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Windows/App.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Windows/Package.appxmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/Windows/app.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/iOS/AppDelegate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/iOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/iOS/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Platforms/iOS/Resources/PrivacyInfo.xcprivacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/PracticaPrevia.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/AppIcon/appicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/AppIcon/appiconfg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Images/dotnet_bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Raw/AboutAssets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Splash/splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Styles/Colors.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/PracticaPrevia/Resources/Styles/Styles.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DI/Unidad08/Unidad08.sln" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "asalcas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/asalcas/ServiciosProcesos.git",
+    "accountId": "dbe69d54-2350-4ae1-b6e9-9ac232890414"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ns9gouuVJIC5SYMlT7eJNC55Cy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/alvaro.salvador/Desktop/GitHub/ServiciosProcesos/API_MedicoPaciente",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alvaro.salvador\Desktop\GitHub\ServiciosProcesos\refuerzoServiciosProcesos\app\countries" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd3d9262-dd04-4228-bcb5-849b3cbd3ef6" name="Changes" comment="" />
+      <created>1729751029633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729751029633</updated>
+      <workItem from="1729751030972" duration="1025000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

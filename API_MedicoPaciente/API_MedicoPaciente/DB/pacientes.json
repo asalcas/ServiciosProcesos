@@ -1,0 +1,29 @@
+[
+    {
+      "Id": 1,
+      "DNI": "12345678A",
+      "Nombre": "Jesús",
+      "Apellidos": "Gutierrez Rodriguez",
+      "SegSocial": "1111111111",
+      "FNacimiento": "27/07/1974",
+      "IdMedico": 1
+    },
+    {
+      "Id": 3,
+      "DNI": "12345678C",
+      "Nombre": "Javier",
+      "Apellidos": "Fernandez Cid",
+      "SegSocial": "333333333",
+      "FNacimiento": "22/03/2000",
+      "IdMedico": 2
+    },
+    {
+       "Id": 2,
+      "DNI": "12345678B",
+      "Nombre": "Fátima",
+      "Apellidos": "Ruiz Mejías",
+      "SegSocial": "2222222222",
+      "FNacimiento": "12/09/1986",
+      "IdMedico": 1
+    }
+]
