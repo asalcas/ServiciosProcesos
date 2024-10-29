@@ -1,0 +1,16 @@
+[
+    {
+        "Id": 1,
+        "Nombre": "Jorge",
+        "Apellidos": "Fernandez Vicioso",
+        "N\u00ba Colegiado": "123456",
+        "Especialidad": "Neurolog\u00eda"
+    },
+    {
+        "Id": 2,
+        "Nombre": "Luc\u00eda",
+        "Apellidos": "Martinez S\u00e1nchez",
+        "N\u00ba Colegiado": "654321",
+        "Especialidad": "Cardiolog\u00eda"
+    }
+]
