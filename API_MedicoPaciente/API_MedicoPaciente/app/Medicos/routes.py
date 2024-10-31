@@ -2,17 +2,17 @@ import json
 from flask import *
 from flask import Blueprint, jsonify
 
-from API_MedicoPaciente.app.Pacientes.routes import leerFicherosPacientes
+from app.Pacientes.routes import leerFicherosPacientes
 
 
 def leerFicherosMedicos():
-    archivo = open("DB/medicos.json", "r")
+    archivo = open("API_MedicoPaciente/DB/medicos.json", "r")
     Medicos = json.load(archivo)
     archivo.close()
     return Medicos
 
 def escribirFicherosMedicos(Medicos):
-    archivo = open("DB/medicos.json", "w")
+    archivo = open("API_MedicoPaciente/DB/medicos.json", "w")
     json.dump(Medicos, archivo)
     archivo.close()
 

@@ -12,4 +12,13 @@ def login():
     return token
 
 def registro():
+    username = input("Introduce un nuevo usuario: ")
+    password = input("Establece tu contraseña: ")
+        json = {"username": username, "password": password},
         return False
+
+# Comprobar en el registro si el usuario existe, y si ya existe el nombre de usuario
+
+for usuario in lista_users:
+    if usuario ["username"] == nuevo_usuario:
+        return {"error": "usuario ya existe"}, 409
