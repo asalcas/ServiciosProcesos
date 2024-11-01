@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./ServiciosProcesos/API_MedicoPaciente/API_MedicoPaciente"
+    ]
+}
