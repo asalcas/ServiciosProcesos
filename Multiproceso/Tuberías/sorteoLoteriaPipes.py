@@ -16,12 +16,13 @@ def loteria(pipe):
             break
 
 def ludopata(pipe):
-    creditosQueTengo = 10
+    creditosQueTengo = 100
+    numIntentos = 0 
     while True:
+        apuesta = randint(1,100) #Elegimos el numero random una vez solo
         while creditosQueTengo>0:
             pipe.send(0) # Quiero un numero
             numeroBombo = pipe.recv()
-            apuesta = randint(1,100)
             print("El numero que ha salido es:", numeroBombo)
             print(f"Vaya yo tengo el: {apuesta}" )
             if (numeroBombo == apuesta):
@@ -31,8 +32,10 @@ def ludopata(pipe):
             else: 
                 print("Me cago en la mar serena")
                 creditosQueTengo -=1
-                print (f"No pasa na me quedan {creditosQueTengo}, seguro que lo doblo!")
+                numIntentos += 1 
+                print (f"No pasa na me quedan {creditosQueTengo}, seguro que lo doblo! Y llevo {numIntentos} intentos.")
     pipe.close()
+
 
 if __name__ == '__main__':
     pipe1, pipe2 = Pipe()

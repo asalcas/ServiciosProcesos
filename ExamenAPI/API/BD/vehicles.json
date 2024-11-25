@@ -1,0 +1,15 @@
+[
+    {"id": 1,
+    "matricula": "1234-ABC",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "estado": "Pendiente"},
+    {
+    "id": 2,
+    "matricula": "5678-DEF",
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "estado": "en reparacion"
+    
+    }
+]
