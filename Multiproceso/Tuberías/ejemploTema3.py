@@ -27,15 +27,15 @@ if __name__ == '__main__':
 
 
 
-   #numerodeProcesos = 4
-   #variable = Value("i", 0)
-   #procesos = []
-   #for i in range(numerodeProcesos):
-   #    p = Process(target=incrementos , args=(variable, ))
-   #    p.start()
-   #    procesos.append(p)
-
-   #for p in procesos:
-   #    p.join()
-   #
-   #print("Resultado ", variable.value)
+    #numerodeProcesos = 4
+    #variable = Value("i", 0)
+    #procesos = []
+    #for i in range(numerodeProcesos):
+    #    p = Process(target=incrementos , args=(variable, ))
+    #    p.start()
+    #    procesos.append(p)
+    
+    #for p in procesos:
+    #    p.join()
+    #
+    #print("Resultado ", variable.value)
