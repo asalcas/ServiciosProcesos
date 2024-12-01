@@ -5,7 +5,7 @@ from multiprocessing import Process, Queue
 
 
 def leerFichero(cola: Queue):
-    with open ("ejercicio3/numeros.txt", "r") as archivo:
+    with open ("refuerzoElena/ejercicio3/numeros.txt", "r") as archivo:
         for linea in archivo.readlines():
             num = int(linea)
             cola.put(num)
@@ -18,7 +18,6 @@ def sumaNum(cola: Queue):
         suma = 0
         for i in range (1,numero +1): 
             suma += i
-        suma += numero
         print("Suma hasta " + str(numero) + ": " + str(suma))
         numero = cola.get()
     return suma
