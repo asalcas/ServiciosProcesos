@@ -1,0 +1,25 @@
+
+La media de Juan es: 4.84
+La media de Juan es: 4.68
+La media de Juan es: 5.67
+La media de Juan es: 5.94
+La media de Carlos es: 6.75
+La media de Ana es: 5.05
+La media de Pedro es: 6.75
+La media de Maria es: 4.52
+La media de Lucia es: 5.85
+La media de Raul es: 4.83
+La media de Sara es: 6.27
+
+La media de Antonio es: 5.8
+La media de Carlos es: 4.81
+La media de Ana es: 6.42
+La media de Pedro es: 5.76
+La media de Maria es: 4.79
+La media de Juan es: 4.12
+La media de Lucia es: 5.93
+La media de Raul es: 4.86
+La media de Sara es: 4.82
+La media de Paula es: 5.83
+La media de Antonio es: 3.06
+La media de Juan es: 6.26
