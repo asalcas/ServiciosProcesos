@@ -9,7 +9,7 @@ from time import sleep
 def sumarNum(id, num):
     suma = 0 
     for i in range (1 , num+1):
-        suma += 1
+        suma += i
         print ("Proceso " + str(id) + ": Suma de todos los valores hasta el "+ str(i) + ": "+ str(suma))
         sleep(1)
 
