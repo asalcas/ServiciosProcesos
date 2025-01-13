@@ -1,0 +1,1 @@
+# En los archivos de esta carpeta, se guardan los datos en JSON: 'DB'

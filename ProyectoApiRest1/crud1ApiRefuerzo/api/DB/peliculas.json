@@ -1,0 +1,12 @@
+[
+    {
+        "Id": 1,
+        "Titulo": "La singular vida de ibelin",
+        "Genero": "Documental"
+    },
+    {
+        "Id": 2,
+        "Titulo": "Vendetta",
+        "Genero": "Accion"
+    }
+]

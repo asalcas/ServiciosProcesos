@@ -1,0 +1,16 @@
+[
+    {
+        "Id": 1,
+        "Titulo": "Secret Level",
+        "Genero": "Accion",
+        "Temporadas" : "1",
+        "Capitulos" : "15"
+    },
+    {
+        "Id": 2,
+        "Titulo": "Juego de Tronos",
+        "Genero": "Accion",
+        "Temporadas" : "8",
+        "Capitulos" : "10"
+    }
+]

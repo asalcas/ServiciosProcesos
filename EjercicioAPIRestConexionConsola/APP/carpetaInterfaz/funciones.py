@@ -43,7 +43,7 @@ def getPaciente():
     print(response.json()) # Convierte el JSON que nos va a enviar la peticion HTTP a una lista para poder verlo
     print("Código de estado:", response.status_code)
     
-def postPaciente():
+def postPaciente(userID,title,completedBoolean):
     api_url = "https://jsonplaceholder.typicode.com/todos/"# URL donde publicaremos un nuevo REGISTRO
     todo = {"userId": userID, "title": title, "completed": completedBoolean} # Creamos un DICCIONARIO con los datos que introduzca el usuario (userID, title, y si esta completo)
     response = requests.post(api_url, json=todo) # PUBLICAMOS el registro de la URL, diciendole que DICCIONARIO usar.
