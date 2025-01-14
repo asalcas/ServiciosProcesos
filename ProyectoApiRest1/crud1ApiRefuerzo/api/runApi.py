@@ -104,7 +104,7 @@ def idAutoincrementadoPeliculas():
     return max(serie["Id"] for serie in series) + 1
 
 @app.post("/series")
-def add_pelicula():
+def add_series():
     # Se comprueba si la petición que nos ha llegado cumple con el formato JSON
     if request.is_json:
         # Creamos una variable donde guardamos el formato JSON
