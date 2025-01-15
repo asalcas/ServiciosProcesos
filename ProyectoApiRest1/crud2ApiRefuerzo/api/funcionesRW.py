@@ -8,3 +8,5 @@ def leerArchivo(rutaLeer):
 def escribirArchivo(contenido, rutaEscribir):
     with open(rutaEscribir,'w') as archivo:
         json.dump(contenido, archivo, indent = 4)
+        
+        
