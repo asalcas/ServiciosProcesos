@@ -6,7 +6,7 @@ from funcionesRW import leerArchivo, escribirArchivo
 
 
 #! IMPORTANTE, la ruta debe ser desde donde se esta abriendo el proyecto, si se 
-peliculasJsonDb = 'C://Users//alvar//Desktop//DAM//ServiciosProcesos//ProyectoApiRest1//crud2ApiRefuerzo//api//DB//peliculas.json' #./api/DB/peliculas.json'
+peliculasJsonDb = 'crud2ApiRefuerzo//api//DB//peliculas.json' #./api/DB/peliculas.json'
 peliculasBP = Blueprint('peliculas', __name__)
 
 #*FuncionAutoincrementar-------------------------------------------------
@@ -17,7 +17,10 @@ def idAutoincrementadoPeliculas():
     # Coge el 'Id' máximo y le suma +1
     return max(peli["Id"] for peli in peliculas) + 1
 
+# ✅
+
 #*GET--------------------------------------------------------------------
+
 
 @peliculasBP.get("/")
 def get_peliculasPor():
@@ -28,6 +31,8 @@ def get_peliculasPor():
         return{"Error": "No se encontró la pelicula."}, 404
     # Perfesto, codigo 200
     return peliculas, 200
+
+# ✅
 
 @peliculasBP.get("/<int:id>")
 # Como esta peticion necesita de un 'int id' 
@@ -40,6 +45,8 @@ def get_peliculasPorID(id):
         if peli["Id"] == id:
             return peli, 200
     return{"Error": "No se encontró la pelicula."}, 404
+
+# ✅
 
 #*POST-----------------------------------------------------------------------
 
@@ -59,6 +66,8 @@ def add_peliculas():
         escribirArchivo(peliculas,peliculasJsonDb) #! Los escribir, tengo que pasar el contenido y la RUTA!
         return peli, 201
     return {"Error":"Peticion tiene que ser JSON"}, 415
+
+# ✅
 
 # Peli es el elemento dentro de la lista PELICULAS que se machacará en 'escribirArchivo(peliculas,peliculasJsonDB)'
 
@@ -84,8 +93,11 @@ def modificarPelicula(id):
                 for clave in nuevosDatos:
                     peli[clave] = nuevosDatos[clave]
                     # Devolvemos la película en formato diccionario y el codigo 200 de correcto
+                escribirArchivo(peliculas, peliculasJsonDb)
                 return peli, 200
     return {"error": "El formato tiene que ser JSON"}, 415
+
+# ✅
 
 #*DELETE--------------------------------------------------------------------
 
@@ -97,7 +109,10 @@ def eliminar_pelicula(id):
     peliculas = leerArchivo(peliculasJsonDb) 
     # Como hay que eliminar una pelicula en concreto, tendremos que buscar en la lista el id de la pelicula que se ha indicado en la petición
     for peli in peliculas: 
-        if peli["Id"] == peliculas["Id"]:
+        if peli["Id"] == id:
             peliculas.remove(peli)
+            escribirArchivo(peliculas, peliculasJsonDb)
             return "{}", 200 # Si se encuentra el pais:
     return {"Error":"Pelicula no encontrada"}, 404 # Si no se encuentra: 
+
+# ✅

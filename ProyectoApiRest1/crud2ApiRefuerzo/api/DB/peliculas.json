@@ -1,12 +1,17 @@
 [
     {
+        "Genero": "Documental",
         "Id": 1,
-        "Titulo": "La singular vida de ibelin",
-        "Genero": "Documental"
+        "Titulo": "La singular vida de ibelin"
     },
     {
+        "Genero": "Accion",
         "Id": 2,
-        "Titulo": "Vendetta",
-        "Genero": "Accion"
+        "Titulo": "Vendetta"
+    },
+    {
+        "Genero": "Belico,Accion",
+        "Id": 3,
+        "Titulo": "Salvar hasta el ultimo hombre loco"
     }
 ]
