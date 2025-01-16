@@ -4,6 +4,8 @@
 from flask import request, Blueprint, jsonify
 from funcionesRW import leerArchivo, escribirArchivo
 
+
+#! IMPORTANTE, la ruta debe ser desde donde se esta abriendo el proyecto, si se 
 peliculasJsonDb = 'C://Users//alvar//Desktop//DAM//ServiciosProcesos//ProyectoApiRest1//crud2ApiRefuerzo//api//DB//peliculas.json' #./api/DB/peliculas.json'
 peliculasBP = Blueprint('peliculas', __name__)
 
@@ -44,19 +46,21 @@ def get_peliculasPorID(id):
 @peliculasBP.post("/")
 def add_peliculas():
     # Leemos el archivo 'peliculasJsonDB' y guardamos eso en la variable 'peliculas'
-    peliculas = leerArchivo(peliculasJsonDb) #? DUDA, ESTO ES ASÍ O TENDRIA QUE IMPORTARLO?
+    peliculas = leerArchivo(peliculasJsonDb)
     # Nos aseguramos de que la request sea en formato 'JSON'
     if request.is_json:
-        # Pensemos que 'request' es un formulario, por lo que tendremos que guardar ese formulario hecho dentro de la variable peli
+        # Pensemos que 'request' es un formulario, por lo que tendremos que guardar ese formulario hecho dentro de la variable 'peli'
         peli = request.get_json()
         # Le añadimos un 'Id' nuevo
         peli["Id"] = idAutoincrementadoPeliculas()
         # Guardamos la peli al final de las que tenemos en la "tienda"
         peliculas.append(peli)
         # Y escribimos el archivo 'PELICULAS.JSON' 
-        escribirArchivo(peliculas)
+        escribirArchivo(peliculas,peliculasJsonDb) #! Los escribir, tengo que pasar el contenido y la RUTA!
         return peli, 201
     return {"Error":"Peticion tiene que ser JSON"}, 415
+
+# Peli es el elemento dentro de la lista PELICULAS que se machacará en 'escribirArchivo(peliculas,peliculasJsonDB)'
 
 #*PUT/PATCH------------------------------------------------------------------
 
@@ -69,8 +73,9 @@ def modificarPelicula(id):
     # Se comprueba si la petición que nos ha llegado cumple el formato JSON
     if request.is_json:
         # Leemos el archivo 'peliculasJsonDB' y guardamos eso en la variable 'peliculas'
-        peliculas = leerArchivo(peliculasJsonDb) #? DUDA, ESTO ES ASÍ O TENDRIA QUE IMPORTARLO?
+        peliculas = leerArchivo(peliculasJsonDb) 
         # Creamos una variable donde guardamos el formato JSON, que coincide con un DICCIONARIO
+        # Pensemos que 'request' es un formulario, por lo que tendremos que guardar ese formulario hecho dentro de la variable peli
         nuevosDatos = request.get_json()
         # Tenemos que coger de la lista de peliculas, una pelicula en concreto seleccionandola por su 'Id'
         for peli in peliculas: 
@@ -89,7 +94,7 @@ def modificarPelicula(id):
 # Como hay que eliminar una pelicula en cuestion, tenemos que pasar el ID para eliminarlo, pues lo pasaremos por parametros
 def eliminar_pelicula(id):
     # Leemos el archivo 'peliculasJsonDB' y guardamos eso en la variable 'peliculas'
-    peliculas = leerArchivo(peliculasJsonDb) #? DUDA, ESTO ES ASÍ O TENDRIA QUE IMPORTARLO?
+    peliculas = leerArchivo(peliculasJsonDb) 
     # Como hay que eliminar una pelicula en concreto, tendremos que buscar en la lista el id de la pelicula que se ha indicado en la petición
     for peli in peliculas: 
         if peli["Id"] == peliculas["Id"]:
