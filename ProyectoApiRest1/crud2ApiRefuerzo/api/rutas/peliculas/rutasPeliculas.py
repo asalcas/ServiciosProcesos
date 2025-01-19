@@ -4,7 +4,6 @@
 from flask import request, Blueprint, jsonify
 from funcionesRW import leerArchivo, escribirArchivo
 
-
 #! IMPORTANTE, la ruta debe ser desde donde se esta abriendo el proyecto, si se 
 peliculasJsonDb = 'crud2ApiRefuerzo//api//DB//peliculas.json' #./api/DB/peliculas.json'
 peliculasBP = Blueprint('peliculas', __name__)
@@ -20,7 +19,6 @@ def idAutoincrementadoPeliculas():
 # ✅
 
 #*GET--------------------------------------------------------------------
-
 
 @peliculasBP.get("/")
 def get_peliculasPor():
