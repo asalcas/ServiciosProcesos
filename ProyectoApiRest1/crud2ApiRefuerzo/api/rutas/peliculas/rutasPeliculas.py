@@ -3,6 +3,7 @@
 #*Imports---------------------------------------------------------------
 from flask import request, Blueprint, jsonify
 from funcionesRW import leerArchivo, escribirArchivo
+from flask_jwt_extended import jwt_required # ESTO ES PARA PODER PONERLE CANDADO A LAS RUTAS
 
 #! IMPORTANTE, la ruta debe ser desde donde se esta abriendo el proyecto, si se 
 peliculasJsonDb = 'crud2ApiRefuerzo//api//DB//peliculas.json' #./api/DB/peliculas.json'
@@ -21,6 +22,8 @@ def idAutoincrementadoPeliculas():
 #*GET--------------------------------------------------------------------
 
 @peliculasBP.get("/")
+@jwt_required() # Como en 'InterfazUsuario' estoy pasando siempre el token, está entrando sin problema por que no hace la peticion por POSTMAN, 
+# sin embargo, si lo hago ahora por postman, tengo que configurarlo sino daria error. #? "msg": "Missing Authorization Header"
 def get_peliculasPor():
     # Leemos el archivo 'peliculasJsonDB' y lo guardamos en peliculas
     peliculas = leerArchivo(peliculasJsonDb)

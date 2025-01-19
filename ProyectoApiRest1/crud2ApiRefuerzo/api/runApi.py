@@ -13,7 +13,7 @@ from flask_jwt_extended import JWTManager # Cuidado, para esto tienes que ejecut
 # Y entonces ejecutas lo anterior
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '12345elmejor' # Nuestra contraseña
+app.config['SECRET_KEY'] = 'clave_generica' # Nuestra contraseña
 jwt = JWTManager(app)
 
 # Registramos los Blueprints indicando el nombre del BP y despues el prefijo de la URL
@@ -25,5 +25,7 @@ if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5050)
     
     # Otros errores que he tenido. 
-    # - En los Json fijarse de que tenemos [{},{}] sin los [] da error siempre.
+    # - En los Json fijarse de que tenemos [{},{}] sin los [] da error siempre. #? TypeError: list indices must be integers or slices, not str
     # - Si tenemos json en los que medimos por id siempre tenemos que tener 1 como mínimo en el archivo, sino no funcionará y dará pete.
+    # - Cuando vayas a coger el token, #! NO LO HAGAS DESDE EL JSON
+    # tienes que cogerlo desde POSTMAN, por que quita segmentos, guarda en el JSON solo una parte
