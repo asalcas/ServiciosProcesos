@@ -1,7 +1,7 @@
 import threading
 from Cine import SalaCine
 import random
-from threading import Thread, Semaphore
+
 
 nombres = [
     "Juan", "María", "Pedro", "Lucía", "Carlos",
