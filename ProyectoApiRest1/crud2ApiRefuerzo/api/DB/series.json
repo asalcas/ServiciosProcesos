@@ -1,16 +1,23 @@
 [
     {
+        "Capitulos": "1000",
+        "Genero": "Accion, Anime",
         "Id": 1,
-        "Titulo": "Secret Level",
-        "Genero": "Accion",
-        "Temporadas" : "1",
-        "Capitulos" : "15"
+        "Temporadas": "18",
+        "Titulo": "One Piece"
     },
     {
+        "Capitulos": "20",
+        "Genero": "Accion, Anime",
         "Id": 2,
-        "Titulo": "Juego de Tronos",
-        "Genero": "Accion",
-        "Temporadas" : "8",
-        "Capitulos" : "10"
+        "Temporadas": "9",
+        "Titulo": "Naruto"
+    },
+    {
+        "Capitulos": "10",
+        "Genero": "Accion, Medieval",
+        "Id": 3,
+        "Temporadas": "8",
+        "Titulo": "Game of Thrones"
     }
 ]
