@@ -12,6 +12,7 @@ class Empresa:
         self.evento_ventas.set()
         time.sleep(5)
         
+        
         # Da la señal de que las ventas se han acabado
     def cerrar_Ventas(self):
         print("\nEmpresa: ⏰ Venta cerrada. No hay más tickets.")
